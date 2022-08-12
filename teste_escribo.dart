@@ -7,16 +7,18 @@ int filter(int numero) {
   var somaNumero = 0;
   for (var i = 0; i < numero; i++) {
     if (i % 3 == 0 || i % 5 == 0) {
-      somaNumero = somaNumero + i;
-    }
+      somaNumero += i;
+    } /*Fiz um for, para conferir se cada numero dentro valor dado pelo usuario é divisivel por 3 ou 5, caso ele fosse ele seria adicionado a uma variavel
+    que somaria ela mesma mais o valor do numero divisivel.
+  
+  */
   }
 
   return somaNumero;
 }
 
 main() {
-  dynamic resposta =
-      ''; //Criei uma variavel para armazenar oque o usuario digitar
+  dynamic resposta = '';
   print("Qual o número inteiro ?");
   resposta = stdin.readLineSync();
   int number = int.parse(resposta);
