@@ -1,4 +1,5 @@
-# Teste-Tecnico-01
+# Teste desenvolvedor flutter - iniciante
+
 Teste feito para a Seleção de Desenvolvedor de Software - Escribo
 
 ##Para poder executar o meu projeto, primeiramente você precisará seguir as seguintes etapas: 
